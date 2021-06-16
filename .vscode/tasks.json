@@ -1,0 +1,12 @@
+{
+    "label": "build",
+    "type": "shell",
+    "command": "scons",
+    "group": "build",
+    "args": [
+      "platform=x11", // Change to your current platform
+      "target=debug",
+      "-j4"
+    ],
+    "problemMatcher": "$msCompile"
+  }
